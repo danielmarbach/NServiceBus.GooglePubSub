@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.0.0
+MinimumVisualStudioVersion = 10.0.0.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBus.GooglePubSub", "NServiceBus.GooglePubSub\NServiceBus.GooglePubSub.csproj", "{3138C984-FAB1-48FD-9459-145D5D2C7B97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptanceTests", "AcceptanceTests\AcceptanceTests.csproj", "{10363503-9BF1-4AEF-A9D5-B0FAF447BFD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportTests", "TransportTests\TransportTests.csproj", "{B6CDC03C-12AA-42E7-9293-569115931376}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3138C984-FAB1-48FD-9459-145D5D2C7B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3138C984-FAB1-48FD-9459-145D5D2C7B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3138C984-FAB1-48FD-9459-145D5D2C7B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3138C984-FAB1-48FD-9459-145D5D2C7B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10363503-9BF1-4AEF-A9D5-B0FAF447BFD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10363503-9BF1-4AEF-A9D5-B0FAF447BFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10363503-9BF1-4AEF-A9D5-B0FAF447BFD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10363503-9BF1-4AEF-A9D5-B0FAF447BFD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6CDC03C-12AA-42E7-9293-569115931376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6CDC03C-12AA-42E7-9293-569115931376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6CDC03C-12AA-42E7-9293-569115931376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6CDC03C-12AA-42E7-9293-569115931376}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
